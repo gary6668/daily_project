@@ -1,0 +1,14 @@
+model:
+  d_model: 64
+  nhead: 4
+  num_layers: 2
+
+train:
+  batch_size: 32
+  lr: 0.001
+  epochs: 20
+
+data:
+  seq_len: 10
+  vocab_size: 20
+  n_samples: 2000
